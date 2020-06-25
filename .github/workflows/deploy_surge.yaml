@@ -29,5 +29,5 @@ jobs:
     - name : Install Surge
       run : npm install -g surge
     - name : Run Surge
-      run : Surge ./ Aisha.surge.sh --token ${{secret.surge_token}}
+      run : Surge ./ Aisha.surge.sh --token ${{secrets.surge_token}}
   
